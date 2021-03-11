@@ -1,0 +1,51 @@
+#wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, label, input {
+    font-family: Jost, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin: 0px 0px 14px;
+}
+
+h2 {
+    margin: 0;
+    padding-left: 10px;
+}
+
+label {
+    display: block;
+    margin: 0px 0px 14px;
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 46px;
+    margin: 0px 0px 14px;
+    font-size: 32px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.correct {
+    color: lime;
+}
+
+.wrong {
+    color: crimson;
+}
